@@ -14,11 +14,16 @@ public class GitHub {
     public static void main(String[] args) {
         
         System.out.println(HolaMundoEnglish());
+        System.out.println(HolaMundoEpañol());
     }
     
      public static String HolaMundoEnglish(){
         String mensaje = "Hello World";
         return mensaje;
     }
+     public static String HolaMundoEpañol(){
+        String mensaje = "Hola Mundo";
+        return mensaje;
+    } 
     
 }
